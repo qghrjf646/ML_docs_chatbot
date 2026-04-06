@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2604.03110v1",
+  "title": "Multi-Aspect Knowledge Distillation for Language Model with Low-rank Factorization",
+  "summary": "Knowledge distillation is an effective technique for pre-trained language model compression. However, existing methods only focus on the knowledge distribution among layers, which may cause the loss of fine-grained information in the alignment process. To address this issue, we introduce the Multi-aspect Knowledge Distillation (MaKD) method, which mimics the self-attention and feed-forward modules in greater depth to capture rich language knowledge information at different aspects. Experimental results demonstrate that MaKD can achieve competitive performance compared with various strong baselines with the same storage parameter budget. In addition, our method also performs well in distilling auto-regressive architecture models.",
+  "published": "2026-04-03T15:35:07Z",
+  "updated": "2026-04-03T15:35:07Z",
+  "authors": [
+    "Zihe Liu",
+    "Yulong Mao",
+    "Jinan Xu",
+    "Xinrui Peng",
+    "Kaiyu Huang"
+  ],
+  "categories": [
+    "cs.CL"
+  ],
+  "primary_category": "cs.CL",
+  "pdf_url": "https://arxiv.org/pdf/2604.03110v1.pdf",
+  "abs_url": "https://arxiv.org/abs/2604.03110v1",
+  "doi": null,
+  "journal_ref": null,
+  "comment": null
+}

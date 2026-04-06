@@ -1,0 +1,26 @@
+{
+  "arxiv_id": "2604.03192v1",
+  "title": "Reliability Gated Multi-Teacher Distillation for Low Resource Abstractive Summarization",
+  "summary": "We study multiteacher knowledge distillation for low resource abstractive summarization from a reliability aware perspective. We introduce EWAD (Entropy Weighted Agreement Aware Distillation), a token level mechanism that routes supervision between teacher distillation and gold supervision based on inter teacher agreement, and CPDP (Capacity Proportional Divergence Preservation), a geometric constraint on the student position relative to heterogeneous teachers. Across two Bangla datasets, 13 BanglaT5 ablations, and eight Qwen2.5 experiments, we find that logit level KD provides the most reliable gains, while more complex distillation improves semantic similarity for short summaries but degrades longer outputs. Cross lingual pseudo label KD across ten languages retains 71-122 percent of teacher ROUGE L at 3.2x compression. A human validated multi judge LLM evaluation further reveals calibration bias in single judge pipelines. Overall, our results show that reliability aware distillation helps characterize when multi teacher supervision improves summarization and when data scaling outweighs loss engineering.",
+  "published": "2026-04-03T17:06:51Z",
+  "updated": "2026-04-03T17:06:51Z",
+  "authors": [
+    "Dipto Sumit",
+    "Ankan Kumar Roy",
+    "Sadia Khair Rodela",
+    "Atia Haque Asha",
+    "Mourchona Afrin",
+    "Niloy Farhan",
+    "Farig Yousuf Sadeque"
+  ],
+  "categories": [
+    "cs.CL",
+    "cs.AI"
+  ],
+  "primary_category": "cs.CL",
+  "pdf_url": "https://arxiv.org/pdf/2604.03192v1.pdf",
+  "abs_url": "https://arxiv.org/abs/2604.03192v1",
+  "doi": null,
+  "journal_ref": null,
+  "comment": null
+}

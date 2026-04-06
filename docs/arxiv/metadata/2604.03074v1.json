@@ -1,0 +1,28 @@
+{
+  "arxiv_id": "2604.03074v1",
+  "title": "Speaker-Reasoner: Scaling Interaction Turns and Reasoning Patterns for Timestamped Speaker-Attributed ASR",
+  "summary": "Transcribing and understanding multi-speaker conversations requires speech recognition, speaker attribution, and timestamp localization. While speech LLMs excel at single-speaker tasks, multi-speaker scenarios remain challenging due to overlapping speech, backchannels, rapid turn-taking, and context window constraints. We propose Speaker-Reasoner, an end-to-end Speech LLM with agentic multi-turn temporal reasoning. Instead of single-pass inference, the model iteratively analyzes global audio structure, autonomously predicts temporal boundaries, and performs fine-grained segment analysis, jointly modeling speaker identity, gender, timestamps, and transcription. A speaker-aware cache further extends processing to audio exceeding the training context window. Trained with a three-stage progressive strategy, Speaker-Reasoner achieves consistent improvements over strong baselines on AliMeeting and AISHELL-4 datasets, particularly in handling overlapping speech and complex turn-taking.",
+  "published": "2026-04-03T14:52:20Z",
+  "updated": "2026-04-03T14:52:20Z",
+  "authors": [
+    "Zhennan Lin",
+    "Shuai Wang",
+    "Zhaokai Sun",
+    "Pengyuan Xie",
+    "Chuan Xie",
+    "Jie Liu",
+    "Qiang Zhang",
+    "Lei Xie"
+  ],
+  "categories": [
+    "eess.AS",
+    "cs.CL",
+    "cs.SD"
+  ],
+  "primary_category": "eess.AS",
+  "pdf_url": "https://arxiv.org/pdf/2604.03074v1.pdf",
+  "abs_url": "https://arxiv.org/abs/2604.03074v1",
+  "doi": null,
+  "journal_ref": null,
+  "comment": null
+}

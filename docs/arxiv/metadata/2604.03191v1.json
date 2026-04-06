@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2604.03191v1",
+  "title": "The Compression Gap: Why Discrete Tokenization Limits Vision-Language-Action Model Scaling",
+  "summary": "Scaling Vision-Language-Action (VLA) models by upgrading the vision encoder is expected to improve downstream manipulation performance--as it does in vision-language modeling. We show that this expectation fails when actions are represented as discrete tokens, and explain why through an information-theoretic principle we call the Compression Gap: in any visuomotor pipeline, scaling behavior is governed by the location of the tightest information bottleneck. When actions are continuous (e.g., Diffusion Policy), the vision encoder is the binding constraint, and upgrading it directly improves performance. When actions are discretized through a fixed-capacity codebook (e.g., OAT), the codebook becomes the binding constraint, and encoder improvements cannot propagate past it--regardless of how rich the upstream representation is. We validate this principle on the LIBERO benchmark with three lines of evidence: a factorial experiment showing that encoder upgrades improve Diffusion Policy by over 21 percentage points while OAT gains are substantially attenuated across model scales; an encoder quality gradient across four encoders confirming that Diffusion Policy tracks encoder quality monotonically while OAT remains flat; and a codebook size experiment demonstrating that relaxing codebook capacity partially recovers encoder sensitivity, providing causal evidence for the bottleneck hypothesis. Our findings reveal that scaling in Physical AI requires identifying where information bottlenecks lie in the pipeline, rather than uniformly increasing model or data size.",
+  "published": "2026-04-03T17:06:31Z",
+  "updated": "2026-04-03T17:06:31Z",
+  "authors": [
+    "Takuya Shiba"
+  ],
+  "categories": [
+    "cs.RO",
+    "cs.CV",
+    "cs.LG"
+  ],
+  "primary_category": "cs.RO",
+  "pdf_url": "https://arxiv.org/pdf/2604.03191v1.pdf",
+  "abs_url": "https://arxiv.org/abs/2604.03191v1",
+  "doi": null,
+  "journal_ref": null,
+  "comment": "11 pages, 1 figure"
+}

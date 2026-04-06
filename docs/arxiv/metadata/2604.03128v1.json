@@ -1,0 +1,29 @@
+{
+  "arxiv_id": "2604.03128v1",
+  "title": "Self-Distilled RLVR",
+  "summary": "On-policy distillation (OPD) has become a popular training paradigm in the LLM community. This paradigm selects a larger model as the teacher to provide dense, fine-grained signals for each sampled trajectory, in contrast to reinforcement learning with verifiable rewards (RLVR), which only obtains sparse signals from verifiable outcomes in the environment. Recently, the community has explored on-policy self-distillation (OPSD), where the same model serves as both teacher and student, with the teacher receiving additional privileged information such as reference answers to enable self-evolution. This paper demonstrates that learning signals solely derived from the privileged teacher result in severe information leakage and unstable long-term training. Accordingly, we identify the optimal niche for self-distillation and propose \\textbf{RLSD} (\\textbf{RL}VR with \\textbf{S}elf-\\textbf{D}istillation). Specifically, we leverage self-distillation to obtain token-level policy differences for determining fine-grained update magnitudes, while continuing to use RLVR to derive reliable update directions from environmental feedback (e.g., response correctness). This enables RLSD to simultaneously harness the strengths of both RLVR and OPSD, achieving a higher convergence ceiling and superior training stability.",
+  "published": "2026-04-03T15:50:07Z",
+  "updated": "2026-04-03T15:50:07Z",
+  "authors": [
+    "Chenxu Yang",
+    "Chuanyu Qin",
+    "Qingyi Si",
+    "Minghui Chen",
+    "Naibin Gu",
+    "Dingyu Yao",
+    "Zheng Lin",
+    "Weiping Wang",
+    "Jiaqi Wang",
+    "Nan Duan"
+  ],
+  "categories": [
+    "cs.LG",
+    "cs.CL"
+  ],
+  "primary_category": "cs.LG",
+  "pdf_url": "https://arxiv.org/pdf/2604.03128v1.pdf",
+  "abs_url": "https://arxiv.org/abs/2604.03128v1",
+  "doi": null,
+  "journal_ref": null,
+  "comment": "Work in progress"
+}

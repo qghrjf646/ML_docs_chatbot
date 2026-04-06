@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2604.03022v1",
+  "title": "Comparing the Impact of Pedagogy-Informed Custom and General-Purpose GAI Chatbots on Students' Science Problem-Solving Processes and Performance Using Heterogeneous Interaction Network Analysis",
+  "summary": "Problem solving plays an essential role in science education, and generative AI (GAI) chatbots have emerged as a promising tool for supporting students' science problem solving. However, general-purpose chatbots (e.g., ChatGPT), which often provide direct, ready-made answers, may lead to students' cognitive offloading. Prior research has rarely focused on custom chatbots for facilitating students' science problem solving, nor has it examined how they differently influence problem-solving processes and performance compared to general-purpose chatbots. To address this gap, we developed a pedagogy-informed custom GAI chatbot grounded in the Socratic questioning method, which supports students by prompting them with guiding questions. This study employed a within-subjects counterbalanced design in which 48 secondary school students used both custom and general-purpose chatbot to complete two science problem-solving tasks. 3297 student-chatbot dialogues were collected and analyzed using Heterogeneous Interaction Network Analysis (HINA). The results showed that: (1) students demonstrated significantly higher interaction intensity and cognitive interaction diversity when using custom chatbot than using general-purpose chatbot; (2) students were more likely to follow custom chatbot's guidance to think and reflect, whereas they tended to request general-purpose chatbot to execute specific commands; and (3) no statistically significant difference was observed in students' problem-solving performance evaluated by solution quality between two chatbot conditions. This study provides novel theoretical insights and empirical evidence that custom chatbots are less likely to induce cognitive offloading and instead foster greater cognitive engagement compared to general-purpose chatbots. This study also offers insights into the design and integration of GAI chatbots in science education.",
+  "published": "2026-04-03T13:13:28Z",
+  "updated": "2026-04-03T13:13:28Z",
+  "authors": [
+    "Hanyu Su",
+    "Huilin Zhang",
+    "Shihui Feng"
+  ],
+  "categories": [
+    "cs.SI",
+    "cs.AI",
+    "cs.HC"
+  ],
+  "primary_category": "cs.SI",
+  "pdf_url": "https://arxiv.org/pdf/2604.03022v1.pdf",
+  "abs_url": "https://arxiv.org/abs/2604.03022v1",
+  "doi": null,
+  "journal_ref": null,
+  "comment": "Full paper accepted to the 27th International Conference on AI in Education (AIED 2026)"
+}

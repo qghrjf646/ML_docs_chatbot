@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2604.03146v1",
+  "title": "Characterization of Gaussian Universality Breakdown in High-Dimensional Empirical Risk Minimization",
+  "summary": "We study high-dimensional convex empirical risk minimization (ERM) under general non-Gaussian data designs. By heuristically extending the Convex Gaussian Min-Max Theorem (CGMT) to non-Gaussian settings, we derive an asymptotic min-max characterization of key statistics, enabling approximation of the mean $μ_{\\hatθ}$ and covariance $C_{\\hatθ}$ of the ERM estimator $\\hatθ$. Specifically, under a concentration assumption on the data matrix and standard regularity conditions on the loss and regularizer, we show that for a test covariate $x$ independent of the training data, the projection $\\hatθ^\\top x$ approximately follows the convolution of the (generally non-Gaussian) distribution of $μ_{\\hatθ}^\\top x$ with an independent centered Gaussian variable of variance $\\text{Tr}(C_{\\hatθ}\\mathbb{E}[xx^\\top])$. This result clarifies the scope and limits of Gaussian universality for ERMs. Additionally, we prove that any $\\mathcal{C}^2$ regularizer is asymptotically equivalent to a quadratic form determined solely by its Hessian at zero and gradient at $μ_{\\hatθ}$. Numerical simulations across diverse losses and models are provided to validate our theoretical predictions and qualitative insights.",
+  "published": "2026-04-03T16:07:02Z",
+  "updated": "2026-04-03T16:07:02Z",
+  "authors": [
+    "Chiheb Yaakoubi",
+    "Cosme Louart",
+    "Malik Tiomoko",
+    "Zhenyu Liao"
+  ],
+  "categories": [
+    "stat.ML",
+    "cs.LG"
+  ],
+  "primary_category": "stat.ML",
+  "pdf_url": "https://arxiv.org/pdf/2604.03146v1.pdf",
+  "abs_url": "https://arxiv.org/abs/2604.03146v1",
+  "doi": null,
+  "journal_ref": null,
+  "comment": "27 pages, 4 figues"
+}

@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2604.03094v1",
+  "title": "A Data-Centric Vision Transformer Baseline for SAR Sea Ice Classification",
+  "summary": "Accurate and automated sea ice classification is important for climate monitoring and maritime safety in the Arctic. While Synthetic Aperture Radar (SAR) is the operational standard because of its all-weather capability, it remains challenging to distinguish morphologically similar ice classes under severe class imbalance. Rather than claiming a fully validated multimodal system, this paper establishes a trustworthy SAR only baseline that future fusion work can build upon. Using the AI4Arctic/ASIP Sea Ice Dataset (v2), which contains 461 Sentinel-1 scenes matched with expert ice charts, we combine full-resolution Sentinel-1 Extra Wide inputs, leakage-aware stratified patch splitting, SIGRID-3 stage-of-development labels, and training-set normalization to evaluate Vision Transformer baselines. We compare ViT-Base models trained with cross entropy and weighted cross-entropy against a ViT-Large model trained with focal loss. Among the tested configurations, ViT-Large with focal loss achieves 69.6% held-out accuracy, 68.8% weighted F1, and 83.9% precision on the minority Multi-Year Ice class. These results show that focal-loss training offers a more useful precision-recall trade-off than weighted cross-entropy for rare ice classes and establishes a cleaner baseline for future multimodal fusion with optical, thermal, or meteorological data.",
+  "published": "2026-04-03T15:18:00Z",
+  "updated": "2026-04-03T15:18:00Z",
+  "authors": [
+    "David Mike-Ewewie",
+    "Panhapiseth Lim",
+    "Priyanka Kumar"
+  ],
+  "categories": [
+    "cs.CV",
+    "cs.AI"
+  ],
+  "primary_category": "cs.CV",
+  "pdf_url": "https://arxiv.org/pdf/2604.03094v1.pdf",
+  "abs_url": "https://arxiv.org/abs/2604.03094v1",
+  "doi": null,
+  "journal_ref": null,
+  "comment": null
+}

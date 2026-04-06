@@ -1,0 +1,26 @@
+{
+  "arxiv_id": "2604.03147v1",
+  "title": "Valence-Arousal Subspace in LLMs: Circular Emotion Geometry and Multi-Behavioral Control",
+  "summary": "We present a method to identify a valence-arousal (VA) subspace within large language model representations. From 211k emotion-labeled texts, we derive emotion steering vectors, then learn VA axes as linear combinations of their top PCA components via ridge regression on the model's self-reported valence-arousal scores. The resulting VA subspace exhibits circular geometry consistent with established models of human emotion perception. Projections along our recovered VA subspace correlate with human-crowdsourced VA ratings across 44k lexical items. Furthermore, steering generation along these axes produces monotonic shifts in the corresponding affective dimensions of model outputs. Steering along these directions also induces near-monotonic bidirectional control over refusal and sycophancy: increasing arousal decreases refusal and increases sycophancy, and vice versa. These effects replicate across Llama-3.1-8B, Qwen3-8B, and Qwen3-14B, demonstrating cross-architecture generality. We provide a mechanistic account for these effects and prior emotionally-framed controls: refusal-associated tokens (\"I can't,\" \"sorry\") occupy low-arousal, negative-valence regions, so VA steering directly modulates their emission probability.",
+  "published": "2026-04-03T16:08:05Z",
+  "updated": "2026-04-03T16:08:05Z",
+  "authors": [
+    "Lihao Sun",
+    "Lewen Yan",
+    "Xiaoya Lu",
+    "Andrew Lee",
+    "Jie Zhang",
+    "Jing Shao"
+  ],
+  "categories": [
+    "cs.CL",
+    "cs.AI",
+    "cs.CY"
+  ],
+  "primary_category": "cs.CL",
+  "pdf_url": "https://arxiv.org/pdf/2604.03147v1.pdf",
+  "abs_url": "https://arxiv.org/abs/2604.03147v1",
+  "doi": null,
+  "journal_ref": null,
+  "comment": null
+}

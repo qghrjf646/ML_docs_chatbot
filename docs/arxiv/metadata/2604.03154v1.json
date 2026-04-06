@@ -1,0 +1,25 @@
+{
+  "arxiv_id": "2604.03154v1",
+  "title": "DSBD: Dual-Aligned Structural Basis Distillation for Graph Domain Adaptation",
+  "summary": "Graph domain adaptation (GDA) aims to transfer knowledge from a labeled source graph to an unlabeled target graph under distribution shifts. However, existing methods are largely feature-centric and overlook structural discrepancies, which become particularly detrimental under significant topology shifts. Such discrepancies alter both geometric relationships and spectral properties, leading to unreliable transfer of graph neural networks (GNNs). To address this limitation, we propose Dual-Aligned Structural Basis Distillation (DSBD) for GDA, a novel framework that explicitly models and adapts cross-domain structural variation. DSBD constructs a differentiable structural basis by synthesizing continuous probabilistic prototype graphs, enabling gradient-based optimization over graph topology. The basis is learned under source-domain supervision to preserve semantic discriminability, while being explicitly aligned to the target domain through a dual-alignment objective. Specifically, geometric consistency is enforced via permutation-invariant topological moment matching, and spectral consistency is achieved through Dirichlet energy calibration, jointly capturing structural characteristics across domains. Furthermore, we introduce a decoupled inference paradigm that mitigates source-specific structural bias by training a new GNN on the distilled structural basis. Extensive experiments on graph and image benchmarks demonstrate that DSBD consistently outperforms state-of-the-art methods.",
+  "published": "2026-04-03T16:23:59Z",
+  "updated": "2026-04-03T16:23:59Z",
+  "authors": [
+    "Yingxu Wang",
+    "Kunyu Zhang",
+    "Jiaxin Huang",
+    "Mengzhu Wang",
+    "Mingyan Xiao",
+    "Siyang Gao",
+    "Nan Yin"
+  ],
+  "categories": [
+    "cs.LG"
+  ],
+  "primary_category": "cs.LG",
+  "pdf_url": "https://arxiv.org/pdf/2604.03154v1.pdf",
+  "abs_url": "https://arxiv.org/abs/2604.03154v1",
+  "doi": null,
+  "journal_ref": null,
+  "comment": null
+}

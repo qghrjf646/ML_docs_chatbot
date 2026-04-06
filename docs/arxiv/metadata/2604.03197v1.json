@@ -1,0 +1,25 @@
+{
+  "arxiv_id": "2604.03197v1",
+  "title": "Real-Time Surrogate Modeling for Personalized Blood Flow Prediction and Hemodynamic Analysis",
+  "summary": "Cardiovascular modeling has rapidly advanced over the past few decades due to the rising needs for health tracking and early detection of cardiovascular diseases. While 1-D arterial models offer an attractive compromise between computational efficiency and solution fidelity, their application on large populations or for generating large \\emph{in silico} cohorts remains challenging. Certain hemodynamic parameters like the terminal resistance/compliance, are difficult to clinically estimate and often yield non-physiological hemodynamics when sampled naively, resulting in large portions of simulated datasets to be discarded. In this work, we present a systematic framework for training machine learning (ML) models, capable of instantaneous hemodynamic prediction and parameter estimation. We initially start with generating a parametric virtual cohort of patients which is based on the multivariate correlations observed in the large Asklepios clinical dataset, ensuring that physiological parameter distributions are respected. We then train a deep neural surrogate model, able to predict patient-specific arterial pressure and cardiac output (CO), enabling rapid a~priori screening of input parameters. This allows for immediate rejection of non-physiological combinations and drastically reduces the cost of targeted synthetic dataset generation (e.g. hypertensive groups). The model also provides a principled means of sampling the terminal resistance to minimize the uncertainties of unmeasurable parameters. Moreover, by assessing the model's predictive performance we determine the theoretical information which suffices for solving the inverse problem of estimating the CO. Finally, we apply the surrogate on a clinical dataset for the estimation of central aortic hemodynamics i.e. the CO and aortic systolic blood pressure (cSBP).",
+  "published": "2026-04-03T17:15:34Z",
+  "updated": "2026-04-03T17:15:34Z",
+  "authors": [
+    "Sokratis J. Anagnostopoulos",
+    "George Rovas",
+    "Vasiliki Bikia",
+    "Theodore G. Papaioannou",
+    "Athanase D. Protogerou",
+    "Nikolaos Stergiopulos"
+  ],
+  "categories": [
+    "cs.LG",
+    "physics.comp-ph"
+  ],
+  "primary_category": "cs.LG",
+  "pdf_url": "https://arxiv.org/pdf/2604.03197v1.pdf",
+  "abs_url": "https://arxiv.org/abs/2604.03197v1",
+  "doi": null,
+  "journal_ref": null,
+  "comment": null
+}

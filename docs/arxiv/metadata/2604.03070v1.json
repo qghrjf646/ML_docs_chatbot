@@ -1,0 +1,29 @@
+{
+  "arxiv_id": "2604.03070v1",
+  "title": "Credential Leakage in LLM Agent Skills: A Large-Scale Empirical Study",
+  "summary": "Third-party skills extend LLM agents with powerful capabilities but often handle sensitive credentials in privileged environments, making leakage risks poorly understood. We present the first large-scale empirical study of this problem, analyzing 17,022 skills (sampled from 170,226 on SkillsMP) using static analysis, sandbox testing, and manual inspection. We identify 520 vulnerable skills with 1,708 issues and derive a taxonomy of 10 leakage patterns (4 accidental and 6 adversarial). We find that (1) leakage is fundamentally cross-modal: 76.3% require joint analysis of code and natural language, while 3.1% arise purely from prompt injection; (2) debug logging is the primary vector, with print and console.log causing 73.5% of leaks due to stdout exposure to LLMs; and (3) leaked credentials are both exploitable (89.6% without privileges) and persistent, as forks retain secrets even after upstream fixes. After disclosure, all malicious skills were removed and 91.6% of hardcoded credentials were fixed. We release our dataset, taxonomy, and detection pipeline to support future research.",
+  "published": "2026-04-03T14:50:16Z",
+  "updated": "2026-04-03T14:50:16Z",
+  "authors": [
+    "Zhihao Chen",
+    "Ying Zhang",
+    "Yi Liu",
+    "Gelei Deng",
+    "Yuekang Li",
+    "Yanjun Zhang",
+    "Jianting Ning",
+    "Leo Yu Zhang",
+    "Lei Ma",
+    "Zhiqiang Li"
+  ],
+  "categories": [
+    "cs.CR",
+    "cs.AI"
+  ],
+  "primary_category": "cs.CR",
+  "pdf_url": "https://arxiv.org/pdf/2604.03070v1.pdf",
+  "abs_url": "https://arxiv.org/abs/2604.03070v1",
+  "doi": null,
+  "journal_ref": null,
+  "comment": null
+}

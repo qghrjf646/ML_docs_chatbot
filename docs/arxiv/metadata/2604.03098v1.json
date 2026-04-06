@@ -1,0 +1,31 @@
+{
+  "arxiv_id": "2604.03098v1",
+  "title": "Co-Evolution of Policy and Internal Reward for Language Agents",
+  "summary": "Large language model (LLM) agents learn by interacting with environments, but long-horizon training remains fundamentally bottlenecked by sparse and delayed rewards. Existing methods typically address this challenge through post-hoc credit assignment or external reward models, which provide limited guidance at inference time and often separate reward improvement from policy improvement. We propose Self-Guide, a self-generated internal reward for language agents that supports both inference-time guidance and training-time supervision. Specifically, the agent uses Self-Guide as a short self-guidance signal to steer the next action during inference, and converts the same signal into step-level internal reward for denser policy optimization during training. This creates a co-evolving loop: better policy produces better guidance, and better guidance further improves policy as internal reward. Across three agent benchmarks, inference-time self-guidance already yields clear gains, while jointly evolving policy and internal reward with GRPO brings further improvements (8\\%) over baselines trained solely with environment reward. Overall, our results suggest that language agents can improve not only by collecting more experience, but also by learning to generate and refine their own internal reward during acting and learning.",
+  "published": "2026-04-03T15:21:11Z",
+  "updated": "2026-04-03T15:21:11Z",
+  "authors": [
+    "Xinyu Wang",
+    "Hanwei Wu",
+    "Jingwei Song",
+    "Shuyuan Zhang",
+    "Jiayi Zhang",
+    "Fanqi Kong",
+    "Tung Sum Thomas Kwok",
+    "Xiao-Wen Chang",
+    "Yuyu Luo",
+    "Chenglin Wu",
+    "Bang Liu"
+  ],
+  "categories": [
+    "cs.LG",
+    "cs.AI",
+    "cs.CL"
+  ],
+  "primary_category": "cs.LG",
+  "pdf_url": "https://arxiv.org/pdf/2604.03098v1.pdf",
+  "abs_url": "https://arxiv.org/abs/2604.03098v1",
+  "doi": null,
+  "journal_ref": null,
+  "comment": "20 pages, 13 figures"
+}

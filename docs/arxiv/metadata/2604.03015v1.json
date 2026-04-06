@@ -1,0 +1,28 @@
+{
+  "arxiv_id": "2604.03015v1",
+  "title": "Generating DDPM-based Samples from Tilted Distributions",
+  "summary": "Given $n$ independent samples from a $d$-dimensional probability distribution, our aim is to generate diffusion-based samples from a distribution obtained by tilting the original, where the degree of tilt is parametrized by $θ\\in \\mathbb{R}^d$. We define a plug-in estimator and show that it is minimax-optimal. We develop Wasserstein bounds between the distribution of the plug-in estimator and the true distribution as a function of $n$ and $θ$, illustrating regimes where the output and the desired true distribution are close. Further, under some assumptions, we prove the TV-accuracy of running Diffusion on these tilted samples. Our theoretical results are supported by extensive simulations. Applications of our work include finance, weather and climate modelling, and many other domains, where the aim may be to generate samples from a tilted distribution that satisfies practically motivated moment constraints.",
+  "published": "2026-04-03T13:00:11Z",
+  "updated": "2026-04-03T13:00:11Z",
+  "authors": [
+    "Himadri Mandal",
+    "Dhruman Gupta",
+    "Rushil Gupta",
+    "Sarvesh Ravichandran Iyer",
+    "Agniv Bandyopadhyay",
+    "Achal Bassamboo",
+    "Varun Gupta",
+    "Sandeep Juneja"
+  ],
+  "categories": [
+    "cs.LG",
+    "math.PR",
+    "stat.ML"
+  ],
+  "primary_category": "cs.LG",
+  "pdf_url": "https://arxiv.org/pdf/2604.03015v1.pdf",
+  "abs_url": "https://arxiv.org/abs/2604.03015v1",
+  "doi": null,
+  "journal_ref": null,
+  "comment": "33 pages, 4 figures"
+}

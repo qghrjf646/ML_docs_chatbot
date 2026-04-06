@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2604.03057v1",
+  "title": "Querying Structured Data Through Natural Language Using Language Models",
+  "summary": "This paper presents an open source methodology for allowing users to query structured non textual datasets through natural language Unlike Retrieval Augmented Generation RAG which struggles with numerical and highly structured information our approach trains an LLM to generate executable queries To support this capability we introduce a principled pipeline for synthetic training data generation producing diverse question answer pairs that capture both user intent and the semantics of the underlying dataset We fine tune a compact model DeepSeek R1 Distill 8B using QLoRA with 4 bit quantization making the system suitable for deployment on commodity hardware We evaluate our approach on a dataset describing accessibility to essential services across Durangaldea Spain The fine tuned model achieves high accuracy across monolingual multilingual and unseen location scenarios demonstrating both robust generalization and reliable query generation Our results highlight that small domain specific models can achieve high precision for this task without relying on large proprietary LLMs making this methodology suitable for resource constrained environments and adaptable to broader multi dataset systems We evaluate our approach on a dataset describing accessibility to essential services across Durangaldea Spain The fine tuned model achieves high accuracy across monolingual multilingual and unseen location scenarios demonstrating both robust generalization and reliable query generation Our results highlight that small domain specific models can achieve high precision for this task without relying on large proprietary LLMs making this methodology suitable for resource constrained environments and adaptable to broader multi dataset systems.",
+  "published": "2026-04-03T14:15:15Z",
+  "updated": "2026-04-03T14:15:15Z",
+  "authors": [
+    "Hontan Valentin-Micu",
+    "Bunea Andrei-Alexandru",
+    "Tantaroudas Nikolaos Dimitrios",
+    "Popovici Dan-Matei"
+  ],
+  "categories": [
+    "cs.CL",
+    "cs.AI"
+  ],
+  "primary_category": "cs.CL",
+  "pdf_url": "https://arxiv.org/pdf/2604.03057v1.pdf",
+  "abs_url": "https://arxiv.org/abs/2604.03057v1",
+  "doi": null,
+  "journal_ref": null,
+  "comment": "in publication"
+}

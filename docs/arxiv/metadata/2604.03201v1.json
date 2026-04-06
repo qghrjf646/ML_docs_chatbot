@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2604.03201v1",
+  "title": "Coupled Control, Structured Memory, and Verifiable Action in Agentic AI (SCRAT -- Stochastic Control with Retrieval and Auditable Trajectories): A Comparative Perspective from Squirrel Locomotion and Scatter-Hoarding",
+  "summary": "Agentic AI is increasingly judged not by fluent output alone but by whether it can act, remember, and verify under partial observability, delay, and strategic observation. Existing research often studies these demands separately: robotics emphasizes control, retrieval systems emphasize memory, and alignment or assurance work emphasizes checking and oversight. This article argues that squirrel ecology offers a sharp comparative case because arboreal locomotion, scatter-hoarding, and audience-sensitive caching couple all three demands in one organism. We synthesize evidence from fox, eastern gray, and, in one field comparison, red squirrels, and impose an explicit inference ladder: empirical observation, minimal computational inference, and AI design conjecture. We introduce a minimal hierarchical partially observed control model with latent dynamics, structured episodic memory, observer-belief state, option-level actions, and delayed verifier signals. This motivates three hypotheses: (H1) fast local feedback plus predictive compensation improves robustness under hidden dynamics shifts; (H2) memory organized for future control improves delayed retrieval under cue conflict and load; and (H3) verifiers and observer models inside the action-memory loop reduce silent failure and information leakage while remaining vulnerable to misspecification. A downstream conjecture is that role-differentiated proposer/executor/checker/adversary systems may reduce correlated error under asymmetric information and verification burden. The contribution is a comparative perspective and benchmark agenda: a disciplined program of falsifiable claims about the coupling of control, memory, and verifiable action.",
+  "published": "2026-04-03T17:25:05Z",
+  "updated": "2026-04-03T17:25:05Z",
+  "authors": [
+    "Maximiliano Armesto",
+    "Christophe Kolb"
+  ],
+  "categories": [
+    "cs.AI"
+  ],
+  "primary_category": "cs.AI",
+  "pdf_url": "https://arxiv.org/pdf/2604.03201v1.pdf",
+  "abs_url": "https://arxiv.org/abs/2604.03201v1",
+  "doi": null,
+  "journal_ref": null,
+  "comment": "15 pages, 4 figures, 3 tables"
+}

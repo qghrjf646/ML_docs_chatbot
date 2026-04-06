@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2604.03035v1",
+  "title": "Beyond Isolated Tasks: A Framework for Evaluating Coding Agents on Sequential Software Evolution",
+  "summary": "Existing datasets for coding agents evaluate performance on isolated, single pull request (PR) tasks in a stateless manner, failing to capture the reality of real-world software development where code changes accumulate, technical debt accrues, and test suites grow over time. To bridge this gap, we introduce an automated coding task generation framework, which helps generate our dataset SWE-STEPS, that evaluates coding agents on long-horizon tasks through two realistic settings mirroring actual developer workflows: Conversational coding with iterative requests, and single-shot Project Requirement document (PRD)-based coding. Unlike existing datasets that evaluate agents on disjointed Pull Requests (PRs), our framework assesses performance across chains of dependent PRs, enabling evaluation of sequential execution, regression verification, and long-term repository health. We discover that widely used isolated PR evaluations yield inflated success rates, w.r.t. our settings - overshooting performance by as much as 20 percentage points - because they ignore the ``spillover'' effects of previous inefficient or buggy code. Furthermore, our analysis reveals that even when agents successfully resolve issues, they degrade repository health by generating code with higher cognitive complexity and technical debt compared to human developers, underscoring the necessity for multidimensional evaluation.",
+  "published": "2026-04-03T13:44:40Z",
+  "updated": "2026-04-03T13:44:40Z",
+  "authors": [
+    "KN Ajay Shastry",
+    "Ganesh Senrayan",
+    "Shrey Satapara",
+    "Pranoy Panda",
+    "Chaitanya Devaguptapu"
+  ],
+  "categories": [
+    "cs.SE",
+    "cs.AI"
+  ],
+  "primary_category": "cs.SE",
+  "pdf_url": "https://arxiv.org/pdf/2604.03035v1.pdf",
+  "abs_url": "https://arxiv.org/abs/2604.03035v1",
+  "doi": null,
+  "journal_ref": null,
+  "comment": null
+}
